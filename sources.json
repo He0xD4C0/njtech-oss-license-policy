@@ -1,0 +1,1503 @@
+{
+  "upstream": "https://github.com/spdx/license-list-data",
+  "release": "v3.29.0",
+  "commit": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+  "selection": "All isOsiApproved entries, including deprecated identifiers, plus CC0-1.0 and Unlicense; explicit restrictive-license denylist.",
+  "files": [
+    {
+      "path": "whitelist/0BSD.txt",
+      "spdx_id": "0BSD",
+      "name": "BSD Zero Clause License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/0BSD.txt",
+      "sha256": "e3f18c71e10d673590eb9856c1d79dd3b4b0d65404efb5e8584dbede7edd608b"
+    },
+    {
+      "path": "whitelist/AAL.txt",
+      "spdx_id": "AAL",
+      "name": "Attribution Assurance License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AAL.txt",
+      "sha256": "0f4015683803b7c2e5252126aa72251c4bd4535363d47ee785219a7df4bd744f"
+    },
+    {
+      "path": "whitelist/AFL-1.1.txt",
+      "spdx_id": "AFL-1.1",
+      "name": "Academic Free License v1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AFL-1.1.txt",
+      "sha256": "1b078d9b349ed33ced8ec94147d61c1bb458a4ae88b2304f45eafb631d73bbb5"
+    },
+    {
+      "path": "whitelist/AFL-1.2.txt",
+      "spdx_id": "AFL-1.2",
+      "name": "Academic Free License v1.2",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AFL-1.2.txt",
+      "sha256": "a8c17d2bcdad3141ff9440224d6c3dc00f037b49a57bf7e9ebe1c315b920390f"
+    },
+    {
+      "path": "whitelist/AFL-2.0.txt",
+      "spdx_id": "AFL-2.0",
+      "name": "Academic Free License v2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AFL-2.0.txt",
+      "sha256": "7ecc7db84298adb05d2cf10339c63a5315a1c5c270a68d97d7d40a53b508ccde"
+    },
+    {
+      "path": "whitelist/AFL-2.1.txt",
+      "spdx_id": "AFL-2.1",
+      "name": "Academic Free License v2.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AFL-2.1.txt",
+      "sha256": "fbedf33db9a433cf87c6f0974f7e488599ee0c9446ed543235c99785ce7d22e6"
+    },
+    {
+      "path": "whitelist/AFL-3.0.txt",
+      "spdx_id": "AFL-3.0",
+      "name": "Academic Free License v3.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AFL-3.0.txt",
+      "sha256": "de0612c5780d0d21f9982d2cadfd715d2d3b7a0dfeb532a5023d42a1d4fdce5c"
+    },
+    {
+      "path": "whitelist/AGPL-3.0.txt",
+      "spdx_id": "AGPL-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_AGPL-3.0.txt",
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+    },
+    {
+      "path": "whitelist/AGPL-3.0-only.txt",
+      "spdx_id": "AGPL-3.0-only",
+      "name": "GNU Affero General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AGPL-3.0-only.txt",
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+    },
+    {
+      "path": "whitelist/AGPL-3.0-or-later.txt",
+      "spdx_id": "AGPL-3.0-or-later",
+      "name": "GNU Affero General Public License v3.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/AGPL-3.0-or-later.txt",
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+    },
+    {
+      "path": "whitelist/ALGLIB-Documentation.txt",
+      "spdx_id": "ALGLIB-Documentation",
+      "name": "ALGLIB Documentation License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ALGLIB-Documentation.txt",
+      "sha256": "e38f858c0805de630817a459e4b77dc1a86523c5a8e831ba63a49876b6ff5223"
+    },
+    {
+      "path": "whitelist/APL-1.0.txt",
+      "spdx_id": "APL-1.0",
+      "name": "Adaptive Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/APL-1.0.txt",
+      "sha256": "ee583972c3b5bab45e51d3bdb254435ed7bf91ae5a7f45ad68538b3f7a4273e4"
+    },
+    {
+      "path": "whitelist/APSL-1.0.txt",
+      "spdx_id": "APSL-1.0",
+      "name": "Apple Public Source License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/APSL-1.0.txt",
+      "sha256": "54702bc17c8ac3601637577c8f92e5992be79110df72c7ff6fe20d75d4df2745"
+    },
+    {
+      "path": "whitelist/APSL-1.1.txt",
+      "spdx_id": "APSL-1.1",
+      "name": "Apple Public Source License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/APSL-1.1.txt",
+      "sha256": "81757b1a656d5e762711d6e45395fe9772db5058fc962c8f8a1b64b9d29fb9ac"
+    },
+    {
+      "path": "whitelist/APSL-1.2.txt",
+      "spdx_id": "APSL-1.2",
+      "name": "Apple Public Source License 1.2",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/APSL-1.2.txt",
+      "sha256": "ea3732a5beb20493cdeb61f2d4bf78f1f1434bda046cc1ca18ac9ddda22cb28b"
+    },
+    {
+      "path": "whitelist/APSL-2.0.txt",
+      "spdx_id": "APSL-2.0",
+      "name": "Apple Public Source License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/APSL-2.0.txt",
+      "sha256": "2d0c12edaaf8d31fec6796fef99291b12e833b6bef28100975120a53d209e06d"
+    },
+    {
+      "path": "whitelist/Apache-1.1.txt",
+      "spdx_id": "Apache-1.1",
+      "name": "Apache License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Apache-1.1.txt",
+      "sha256": "1521ffd9660fbf0e4648f72e2aa164fa91eb3eacee27fe36b732b95b3d64e28c"
+    },
+    {
+      "path": "whitelist/Apache-2.0.txt",
+      "spdx_id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Apache-2.0.txt",
+      "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+    },
+    {
+      "path": "whitelist/Artistic-1.0.txt",
+      "spdx_id": "Artistic-1.0",
+      "name": "Artistic License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Artistic-1.0.txt",
+      "sha256": "b50b4f007fb64c2711e4610c8246d92f9e56b2937c9d25e1acb0416cd5dcc5a8"
+    },
+    {
+      "path": "whitelist/Artistic-1.0-Perl.txt",
+      "spdx_id": "Artistic-1.0-Perl",
+      "name": "Artistic License 1.0 (Perl)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Artistic-1.0-Perl.txt",
+      "sha256": "9e18ef4d50faba562e3efa37d8961d6e9956d1c103bfc4fc1caeb07e8effe885"
+    },
+    {
+      "path": "whitelist/Artistic-1.0-cl8.txt",
+      "spdx_id": "Artistic-1.0-cl8",
+      "name": "Artistic License 1.0 w/clause 8",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Artistic-1.0-cl8.txt",
+      "sha256": "a0db94ded05175a102689028b7664aa897caeb8a85cb143fc096928366b062ed"
+    },
+    {
+      "path": "whitelist/Artistic-2.0.txt",
+      "spdx_id": "Artistic-2.0",
+      "name": "Artistic License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Artistic-2.0.txt",
+      "sha256": "bae466ac8d7100c304fe76632ccc627203a3897d3f7166f3cce00fb9df8c2074"
+    },
+    {
+      "path": "whitelist/BSD-1-Clause.txt",
+      "spdx_id": "BSD-1-Clause",
+      "name": "BSD 1-Clause License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-1-Clause.txt",
+      "sha256": "244e17b6f02493de568a8ddfd7f4349996a6c332c0585d304ceaf5394becea52"
+    },
+    {
+      "path": "whitelist/BSD-2-Clause.txt",
+      "spdx_id": "BSD-2-Clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-2-Clause.txt",
+      "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df"
+    },
+    {
+      "path": "whitelist/BSD-2-Clause-Patent.txt",
+      "spdx_id": "BSD-2-Clause-Patent",
+      "name": "BSD-2-Clause Plus Patent License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-2-Clause-Patent.txt",
+      "sha256": "10500282524f6f9e8c656779f3af9975875ad886181a1f9e7ff0034bcb2f70f5"
+    },
+    {
+      "path": "whitelist/BSD-3-Clause.txt",
+      "spdx_id": "BSD-3-Clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-3-Clause.txt",
+      "sha256": "5a93d5831e1297ab10fe643e1a631e83be392896da14ee2951285a79012df69d"
+    },
+    {
+      "path": "whitelist/BSD-3-Clause-LBNL.txt",
+      "spdx_id": "BSD-3-Clause-LBNL",
+      "name": "Lawrence Berkeley National Labs BSD variant license",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-3-Clause-LBNL.txt",
+      "sha256": "49d63fdb269af8c5209eb1dee7f6d21d7e790785a8774ca8928ddb1ca47ce2c7"
+    },
+    {
+      "path": "whitelist/BSD-3-Clause-Open-MPI.txt",
+      "spdx_id": "BSD-3-Clause-Open-MPI",
+      "name": "BSD 3-Clause Open MPI variant",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-3-Clause-Open-MPI.txt",
+      "sha256": "a4bd3317cea75d614ac192803a60d6f54dd15a28ea509576d4932778e2879a98"
+    },
+    {
+      "path": "whitelist/BSD-ask-to-endorse.txt",
+      "spdx_id": "BSD-ask-to-endorse",
+      "name": "BSD - ask to endorse",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSD-ask-to-endorse.txt",
+      "sha256": "a4db73b0f83109207d4a0af2756dffad0122c87209ba9bb6a8b6323324502bbd"
+    },
+    {
+      "path": "whitelist/BSL-1.0.txt",
+      "spdx_id": "BSL-1.0",
+      "name": "Boost Software License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BSL-1.0.txt",
+      "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f"
+    },
+    {
+      "path": "whitelist/BlueOak-1.0.0.txt",
+      "spdx_id": "BlueOak-1.0.0",
+      "name": "Blue Oak Model License 1.0.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BlueOak-1.0.0.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+    },
+    {
+      "path": "whitelist/CAL-1.0.txt",
+      "spdx_id": "CAL-1.0",
+      "name": "Cryptographic Autonomy License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CAL-1.0.txt",
+      "sha256": "a24987ff96bf2e331cb7d90989fba6d7f90a37e07ac1b99927025c3fb4a5df36"
+    },
+    {
+      "path": "whitelist/CAL-1.0-Combined-Work-Exception.txt",
+      "spdx_id": "CAL-1.0-Combined-Work-Exception",
+      "name": "Cryptographic Autonomy License 1.0 (Combined Work Exception)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CAL-1.0-Combined-Work-Exception.txt",
+      "sha256": "a24987ff96bf2e331cb7d90989fba6d7f90a37e07ac1b99927025c3fb4a5df36"
+    },
+    {
+      "path": "whitelist/CATOSL-1.1.txt",
+      "spdx_id": "CATOSL-1.1",
+      "name": "Computer Associates Trusted Open Source License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CATOSL-1.1.txt",
+      "sha256": "c30f1f9fafed19c55115432c9dcaaee2cccf26dc810e514685f73992c3cc1db5"
+    },
+    {
+      "path": "whitelist/CC0-1.0.txt",
+      "spdx_id": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "whitelist/CDDL-1.0.txt",
+      "spdx_id": "CDDL-1.0",
+      "name": "Common Development and Distribution License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CDDL-1.0.txt",
+      "sha256": "fde9ef48461569987d09cac803379245dfda04e7751075f39b578a0ce927d470"
+    },
+    {
+      "path": "whitelist/CDDL-1.1.txt",
+      "spdx_id": "CDDL-1.1",
+      "name": "Common Development and Distribution License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CDDL-1.1.txt",
+      "sha256": "b5bbb5ac38b5cb76862a7f410ca567e4b32d7c22f22622ebff10ba434827bb78"
+    },
+    {
+      "path": "whitelist/CECILL-2.1.txt",
+      "spdx_id": "CECILL-2.1",
+      "name": "CeCILL Free Software License Agreement v2.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CECILL-2.1.txt",
+      "sha256": "4ea234937bc7b0aa5247e436690d1eb9324875bc7590ecde50befd38e35190a5"
+    },
+    {
+      "path": "whitelist/CERN-OHL-P-2.0.txt",
+      "spdx_id": "CERN-OHL-P-2.0",
+      "name": "CERN Open Hardware Licence Version 2 - Permissive",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CERN-OHL-P-2.0.txt",
+      "sha256": "eeecc593866fa1c3b80189c7e3dc0ceb77740557fa92f81771f891cc54c579cb"
+    },
+    {
+      "path": "whitelist/CERN-OHL-S-2.0.txt",
+      "spdx_id": "CERN-OHL-S-2.0",
+      "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CERN-OHL-S-2.0.txt",
+      "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab"
+    },
+    {
+      "path": "whitelist/CERN-OHL-W-2.0.txt",
+      "spdx_id": "CERN-OHL-W-2.0",
+      "name": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CERN-OHL-W-2.0.txt",
+      "sha256": "c1432111d0aeefc9d1ced8105d2d4ed07d5dcb1fd43abb5d4616c4f9ef96e08f"
+    },
+    {
+      "path": "whitelist/CNRI-Python.txt",
+      "spdx_id": "CNRI-Python",
+      "name": "CNRI Python License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CNRI-Python.txt",
+      "sha256": "69b5d7d41a6ece3b20c6a77774f567948766d8643f7646e3f65474692cce5c15"
+    },
+    {
+      "path": "whitelist/CNRI-Python-GPL-Compatible.txt",
+      "spdx_id": "CNRI-Python-GPL-Compatible",
+      "name": "CNRI Python Open Source GPL Compatible License Agreement",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CNRI-Python-GPL-Compatible.txt",
+      "sha256": "8e1f50d9b3c33a6a58559a27042475a6267c7ebc745be85f2eaa2ffb04878dc8"
+    },
+    {
+      "path": "whitelist/CPAL-1.0.txt",
+      "spdx_id": "CPAL-1.0",
+      "name": "Common Public Attribution License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CPAL-1.0.txt",
+      "sha256": "54cef60295bdffd5d41904338632538db1f3cdcd4c5f7ea5bb021d04eef14d92"
+    },
+    {
+      "path": "whitelist/CPL-1.0.txt",
+      "spdx_id": "CPL-1.0",
+      "name": "Common Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CPL-1.0.txt",
+      "sha256": "9698f2ba346a875a47a9cc6bb602e3d126758774dde1f575b4f3369dc3f2574f"
+    },
+    {
+      "path": "whitelist/CUA-OPL-1.0.txt",
+      "spdx_id": "CUA-OPL-1.0",
+      "name": "CUA Office Public License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CUA-OPL-1.0.txt",
+      "sha256": "2fa6914d4062431b1e2616ce0ed265238d8eaaa58ded803860b888f12b978aae"
+    },
+    {
+      "path": "whitelist/ECL-1.0.txt",
+      "spdx_id": "ECL-1.0",
+      "name": "Educational Community License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ECL-1.0.txt",
+      "sha256": "c3b96326d1e6bb2e8826af2d25eefb181b3deb5293f2deba3229e3c5ed26df42"
+    },
+    {
+      "path": "whitelist/ECL-2.0.txt",
+      "spdx_id": "ECL-2.0",
+      "name": "Educational Community License v2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ECL-2.0.txt",
+      "sha256": "49831d277a9eac4e7a31922554e24fb61142e7a6534da2d15fb062ce0dca77bf"
+    },
+    {
+      "path": "whitelist/EFL-1.0.txt",
+      "spdx_id": "EFL-1.0",
+      "name": "Eiffel Forum License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EFL-1.0.txt",
+      "sha256": "76631db9123a74928a98da1b833f3b4923f718c9528bbc40e2cd1a77a6d2cc4b"
+    },
+    {
+      "path": "whitelist/EFL-2.0.txt",
+      "spdx_id": "EFL-2.0",
+      "name": "Eiffel Forum License v2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EFL-2.0.txt",
+      "sha256": "1d7818c8d04401c9e6b6c4b18d084fae31cfce24e022b368c9061adecde819c7"
+    },
+    {
+      "path": "whitelist/EPL-1.0.txt",
+      "spdx_id": "EPL-1.0",
+      "name": "Eclipse Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EPL-1.0.txt",
+      "sha256": "f3d8dc494be2e7ea9cd31ac2fb902e35dce7ff8181b9b30d05861b47c339cb25"
+    },
+    {
+      "path": "whitelist/EPL-2.0.txt",
+      "spdx_id": "EPL-2.0",
+      "name": "Eclipse Public License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EPL-2.0.txt",
+      "sha256": "61616a4066701bc7888ad910de1633dbc55eb4d4d30d930feef55afb9492e33c"
+    },
+    {
+      "path": "whitelist/EUDatagrid.txt",
+      "spdx_id": "EUDatagrid",
+      "name": "EU DataGrid Software License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EUDatagrid.txt",
+      "sha256": "6508739a64a180fd64de79d04b3b297bca7a9f10d34e18da5b2502101c3a0dad"
+    },
+    {
+      "path": "whitelist/EUPL-1.1.txt",
+      "spdx_id": "EUPL-1.1",
+      "name": "European Union Public License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EUPL-1.1.txt",
+      "sha256": "1480d19681cfc637b0e83b9b52fe9fc91bdf571d83e7d4ee141c2860b1b15b37"
+    },
+    {
+      "path": "whitelist/EUPL-1.2.txt",
+      "spdx_id": "EUPL-1.2",
+      "name": "European Union Public License 1.2",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/EUPL-1.2.txt",
+      "sha256": "57fb42fbcd0b037ce528ed8f72f1ec095d67bc6825ecf1448ff39be1fe68a4b4"
+    },
+    {
+      "path": "whitelist/Entessa.txt",
+      "spdx_id": "Entessa",
+      "name": "Entessa Public License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Entessa.txt",
+      "sha256": "548c65ff7aad4d42b4f1bb714f98df03cc686fb1d5b3d7a0e5225691fd848f5b"
+    },
+    {
+      "path": "whitelist/Fair.txt",
+      "spdx_id": "Fair",
+      "name": "Fair License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Fair.txt",
+      "sha256": "59954017f5a14cb3589a7123d56f96905ccb3d6ad58019432fdd0d91b3c2b541"
+    },
+    {
+      "path": "whitelist/Frameworx-1.0.txt",
+      "spdx_id": "Frameworx-1.0",
+      "name": "Frameworx Open License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Frameworx-1.0.txt",
+      "sha256": "073806e49e909804a7f97a843215f658cefe0a5de3cf15390a51f817b1dc37e5"
+    },
+    {
+      "path": "whitelist/GPL-2.0.txt",
+      "spdx_id": "GPL-2.0",
+      "name": "GNU General Public License v2.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_GPL-2.0.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+    },
+    {
+      "path": "whitelist/GPL-2.0+.txt",
+      "spdx_id": "GPL-2.0+",
+      "name": "GNU General Public License v2.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/GPL-2.0-or-later.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "original_source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_GPL-2.0+.txt",
+      "original_sha256": "471640dae400913f0fc3438d7ee2503661ed374bf2bf42a0116de6e6e7765b04",
+      "canonical_spdx_id": "GPL-2.0-or-later",
+      "adaptation": "Use the SPDX successor text for this deprecated alias. Legacy text differs in tutorial placeholder angle brackets and causes a ScanCode token collision with the successor. No license clauses were edited."
+    },
+    {
+      "path": "whitelist/GPL-2.0-only.txt",
+      "spdx_id": "GPL-2.0-only",
+      "name": "GNU General Public License v2.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/GPL-2.0-only.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+    },
+    {
+      "path": "whitelist/GPL-2.0-or-later.txt",
+      "spdx_id": "GPL-2.0-or-later",
+      "name": "GNU General Public License v2.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/GPL-2.0-or-later.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+    },
+    {
+      "path": "whitelist/GPL-3.0.txt",
+      "spdx_id": "GPL-3.0",
+      "name": "GNU General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_GPL-3.0.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "whitelist/GPL-3.0+.txt",
+      "spdx_id": "GPL-3.0+",
+      "name": "GNU General Public License v3.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_GPL-3.0+.txt",
+      "sha256": "eb2b0e5c268a2756a3d2d8c12670054862787409fea86fb77a7f0adee15f4944"
+    },
+    {
+      "path": "whitelist/GPL-3.0-only.txt",
+      "spdx_id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/GPL-3.0-only.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "whitelist/GPL-3.0-or-later.txt",
+      "spdx_id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/GPL-3.0-or-later.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "whitelist/GPL-3.0-with-GCC-exception.txt",
+      "spdx_id": "GPL-3.0-with-GCC-exception",
+      "name": "GNU General Public License v3.0 w/GCC Runtime Library exception",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_GPL-3.0-with-GCC-exception.txt",
+      "sha256": "d506b7d11d2d4999642a0cd6a9fc84689f370d8e250a986730a2a7cfc842f66a"
+    },
+    {
+      "path": "whitelist/HPND.txt",
+      "spdx_id": "HPND",
+      "name": "Historical Permission Notice and Disclaimer",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/HPND.txt",
+      "sha256": "4d9ae4a36816338dfa153d1d6f92645c45f25eaa46908d3096922e2431fb571e"
+    },
+    {
+      "path": "whitelist/ICU.txt",
+      "spdx_id": "ICU",
+      "name": "ICU License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ICU.txt",
+      "sha256": "c7922dccc709c9e19ab6ba970fe00af174229484b05160fb07a3913f4d04cf50"
+    },
+    {
+      "path": "whitelist/IPA.txt",
+      "spdx_id": "IPA",
+      "name": "IPA Font License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/IPA.txt",
+      "sha256": "f5449912f9a791699330354ef8b83347edb849a74a66d2577324b76c2acd6c15"
+    },
+    {
+      "path": "whitelist/IPL-1.0.txt",
+      "spdx_id": "IPL-1.0",
+      "name": "IBM Public License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/IPL-1.0.txt",
+      "sha256": "0d7fbdd478bb103ab440618af177275cbc47d936b1703214091a360dd36116e0"
+    },
+    {
+      "path": "whitelist/ISC.txt",
+      "spdx_id": "ISC",
+      "name": "ISC License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ISC.txt",
+      "sha256": "521c6f0ed8e64736684f89843d16a4df6b4b7449acbcfc6ca6630a3037ca8c53"
+    },
+    {
+      "path": "whitelist/Intel.txt",
+      "spdx_id": "Intel",
+      "name": "Intel Open Source License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Intel.txt",
+      "sha256": "6337a14cec9c05002528eb0540048a09a64f22850fec6c415962e262deaf81f3"
+    },
+    {
+      "path": "whitelist/Jam.txt",
+      "spdx_id": "Jam",
+      "name": "Jam License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Jam.txt",
+      "sha256": "5239625d8bf548b9c3cc0934b7f60ca781780db7165596f8b28e38e2701dddc6"
+    },
+    {
+      "path": "whitelist/LGPL-2.0.txt",
+      "spdx_id": "LGPL-2.0",
+      "name": "GNU Library General Public License v2 only",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-2.0.txt",
+      "sha256": "86dc99d7e5060915ab1dfc1378b7dd351c62088bfa74067e8aa1868c6fdba7d8"
+    },
+    {
+      "path": "whitelist/LGPL-2.0+.txt",
+      "spdx_id": "LGPL-2.0+",
+      "name": "GNU Library General Public License v2 or later",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-2.0+.txt",
+      "sha256": "1e163e200a15212ea59aa2825628e1ef1283c99d549bb64986bdf158c0cb74cd"
+    },
+    {
+      "path": "whitelist/LGPL-2.0-only.txt",
+      "spdx_id": "LGPL-2.0-only",
+      "name": "GNU Library General Public License v2 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-2.0-only.txt",
+      "sha256": "86dc99d7e5060915ab1dfc1378b7dd351c62088bfa74067e8aa1868c6fdba7d8"
+    },
+    {
+      "path": "whitelist/LGPL-2.0-or-later.txt",
+      "spdx_id": "LGPL-2.0-or-later",
+      "name": "GNU Library General Public License v2 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-2.0-or-later.txt",
+      "sha256": "86dc99d7e5060915ab1dfc1378b7dd351c62088bfa74067e8aa1868c6fdba7d8"
+    },
+    {
+      "path": "whitelist/LGPL-2.1.txt",
+      "spdx_id": "LGPL-2.1",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-2.1.txt",
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    },
+    {
+      "path": "whitelist/LGPL-2.1+.txt",
+      "spdx_id": "LGPL-2.1+",
+      "name": "GNU Lesser General Public License v2.1 or later",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-2.1-or-later.txt",
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2",
+      "original_source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-2.1+.txt",
+      "original_sha256": "b04f56b8f92981c05942c8fe3bed3d9df9d4cfa3cbc848eb09ee51cc089ec143",
+      "canonical_spdx_id": "LGPL-2.1-or-later",
+      "adaptation": "Use the SPDX successor text for this deprecated alias. Legacy text differs in tutorial placeholder angle brackets and causes a ScanCode token collision with the successor. No license clauses were edited."
+    },
+    {
+      "path": "whitelist/LGPL-2.1-only.txt",
+      "spdx_id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-2.1-only.txt",
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    },
+    {
+      "path": "whitelist/LGPL-2.1-or-later.txt",
+      "spdx_id": "LGPL-2.1-or-later",
+      "name": "GNU Lesser General Public License v2.1 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-2.1-or-later.txt",
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    },
+    {
+      "path": "whitelist/LGPL-3.0.txt",
+      "spdx_id": "LGPL-3.0",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-3.0.txt",
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    },
+    {
+      "path": "whitelist/LGPL-3.0+.txt",
+      "spdx_id": "LGPL-3.0+",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_LGPL-3.0+.txt",
+      "sha256": "dc34f96580661c5b64d3000434d3be815a61b228713c742612350c3aabf9ab76"
+    },
+    {
+      "path": "whitelist/LGPL-3.0-only.txt",
+      "spdx_id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-3.0-only.txt",
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    },
+    {
+      "path": "whitelist/LGPL-3.0-or-later.txt",
+      "spdx_id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-3.0-or-later.txt",
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    },
+    {
+      "path": "whitelist/LPL-1.0.txt",
+      "spdx_id": "LPL-1.0",
+      "name": "Lucent Public License Version 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LPL-1.0.txt",
+      "sha256": "84110c251f5fda9b4f91eb38164891b6cee6b1f9a64efdcc71b4f8c062150296"
+    },
+    {
+      "path": "whitelist/LPL-1.02.txt",
+      "spdx_id": "LPL-1.02",
+      "name": "Lucent Public License v1.02",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LPL-1.02.txt",
+      "sha256": "bc4fd6a85caed81081c052ccdd86b03912bc29fb6b9f4117e6e1de438046a57f"
+    },
+    {
+      "path": "whitelist/LPPL-1.3c.txt",
+      "spdx_id": "LPPL-1.3c",
+      "name": "LaTeX Project Public License v1.3c",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LPPL-1.3c.txt",
+      "sha256": "f0f307427080e67974f58f6b7f732039a966b3a7ae480dedee3275907104ac1f"
+    },
+    {
+      "path": "whitelist/LiLiQ-P-1.1.txt",
+      "spdx_id": "LiLiQ-P-1.1",
+      "name": "Licence Libre du Québec – Permissive version 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LiLiQ-P-1.1.txt",
+      "sha256": "e29a35c0a27e3072a69900bcf8c478de3dcf31acd7058ef23b249b0bf5501ddf"
+    },
+    {
+      "path": "whitelist/LiLiQ-R-1.1.txt",
+      "spdx_id": "LiLiQ-R-1.1",
+      "name": "Licence Libre du Québec – Réciprocité version 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LiLiQ-R-1.1.txt",
+      "sha256": "efc4ee7d7064ec8c6b3103db8f525222aa0105de173c1b1c8a488e19ffec4439"
+    },
+    {
+      "path": "whitelist/LiLiQ-Rplus-1.1.txt",
+      "spdx_id": "LiLiQ-Rplus-1.1",
+      "name": "Licence Libre du Québec – Réciprocité forte version 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LiLiQ-Rplus-1.1.txt",
+      "sha256": "a26dc35b0586cfd36cf8f854c731ea20552d916a1d9f43387aa6636ec371838f"
+    },
+    {
+      "path": "whitelist/MIT.txt",
+      "spdx_id": "MIT",
+      "name": "MIT License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    },
+    {
+      "path": "whitelist/MIT-0.txt",
+      "spdx_id": "MIT-0",
+      "name": "MIT No Attribution",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT-0.txt",
+      "sha256": "59746d6285ffa44bfc7ecada352aa5d6a20dc8eab418a60ce091cc739012c135"
+    },
+    {
+      "path": "whitelist/MIT-Modern-Variant.txt",
+      "spdx_id": "MIT-Modern-Variant",
+      "name": "MIT License Modern Variant",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT-Modern-Variant.txt",
+      "sha256": "d7366190045ad81a5e612799b8f4eef242f9b389a0040836aad61bebe9849647"
+    },
+    {
+      "path": "whitelist/MPL-1.0.txt",
+      "spdx_id": "MPL-1.0",
+      "name": "Mozilla Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-1.0.txt",
+      "sha256": "819b323d7e6d8685b4c0fe9c297c75d59f2e70eb52fcc7e14bc2e65d70b8f916"
+    },
+    {
+      "path": "whitelist/MPL-1.1.txt",
+      "spdx_id": "MPL-1.1",
+      "name": "Mozilla Public License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-1.1.txt",
+      "sha256": "6214f8b1300bb9f37b16ebc146f8f61af0187e0025042ff95c8b3030744a8795"
+    },
+    {
+      "path": "whitelist/MPL-2.0.txt",
+      "spdx_id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-2.0.txt",
+      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+    },
+    {
+      "path": "whitelist/MPL-2.0-no-copyleft-exception.txt",
+      "spdx_id": "MPL-2.0-no-copyleft-exception",
+      "name": "Mozilla Public License 2.0 (no copyleft exception)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MPL-2.0-no-copyleft-exception.txt",
+      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+    },
+    {
+      "path": "whitelist/MS-PL.txt",
+      "spdx_id": "MS-PL",
+      "name": "Microsoft Public License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MS-PL.txt",
+      "sha256": "7a162b1da10f1c22db4c68f07bec4a8355259f8d4aab5b00a2b2bbd423d833dd"
+    },
+    {
+      "path": "whitelist/MS-RL.txt",
+      "spdx_id": "MS-RL",
+      "name": "Microsoft Reciprocal License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MS-RL.txt",
+      "sha256": "7c69e20ff8633d1b5135126aa9921a2156f6a52b355e92812a084211afdd5d38"
+    },
+    {
+      "path": "whitelist/MirOS.txt",
+      "spdx_id": "MirOS",
+      "name": "The MirOS Licence",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MirOS.txt",
+      "sha256": "79da9e5c37adc25a27cfa41f1f64cc93cf2d6be8e52cba3fbaf02b9e8fafd3d9"
+    },
+    {
+      "path": "whitelist/Motosoto.txt",
+      "spdx_id": "Motosoto",
+      "name": "Motosoto License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Motosoto.txt",
+      "sha256": "217f381da7c4195cfb4a5a03d98c2e7c65568fe9bc9d81cd157a4d2b92528f11"
+    },
+    {
+      "path": "whitelist/MulanPSL-2.0.txt",
+      "spdx_id": "MulanPSL-2.0",
+      "name": "Mulan Permissive Software License, Version 2",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MulanPSL-2.0.txt",
+      "sha256": "eb7a1d713eb919b146787629e22e4c975cb701f529a65d4d7e0fcd417558bf1c"
+    },
+    {
+      "path": "whitelist/Multics.txt",
+      "spdx_id": "Multics",
+      "name": "Multics License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Multics.txt",
+      "sha256": "d61ab7b7b6e9d7871ef6e5217e6b7cb915dd6549cfa68a49669382090b81fe70"
+    },
+    {
+      "path": "whitelist/NASA-1.3.txt",
+      "spdx_id": "NASA-1.3",
+      "name": "NASA Open Source Agreement 1.3",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/NASA-1.3.txt",
+      "sha256": "fe59e577293a15d0e8e732068b759272a11beb70868b7c8baaf4351442b64893"
+    },
+    {
+      "path": "whitelist/NCSA.txt",
+      "spdx_id": "NCSA",
+      "name": "University of Illinois/NCSA Open Source License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/NCSA.txt",
+      "sha256": "b31bbfd06e221b39e1a877fb3f91b32fe9e88c87c1b46d11cd2bd5c822ec71e3"
+    },
+    {
+      "path": "whitelist/NGPL.txt",
+      "spdx_id": "NGPL",
+      "name": "Nethack General Public License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/NGPL.txt",
+      "sha256": "c0c36141bbc888c6a2e724e2cc2b2529fccebc93fdddd7b960336c525e201082"
+    },
+    {
+      "path": "whitelist/NPOSL-3.0.txt",
+      "spdx_id": "NPOSL-3.0",
+      "name": "Non-Profit Open Software License 3.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/NPOSL-3.0.txt",
+      "sha256": "72bd990f4e37c938dbb54b3063cc8a4500e7ca27410a9988976314e02858f75e"
+    },
+    {
+      "path": "whitelist/NTP.txt",
+      "spdx_id": "NTP",
+      "name": "NTP License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/NTP.txt",
+      "sha256": "290eb479deee5ab45484cb98f7cd6c118603208a4f4a118e34f591b50fa20934"
+    },
+    {
+      "path": "whitelist/Naumen.txt",
+      "spdx_id": "Naumen",
+      "name": "Naumen Public License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Naumen.txt",
+      "sha256": "ab999583e09a53632496f4614a2f587f4ed19cecb57a558aed92a0d1a4f3da79"
+    },
+    {
+      "path": "whitelist/Nokia.txt",
+      "spdx_id": "Nokia",
+      "name": "Nokia Open Source License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Nokia.txt",
+      "sha256": "15425a7c7bbde70efc9adf491faeac81d45d275d083c50c383557ca0b687c453"
+    },
+    {
+      "path": "whitelist/OCLC-2.0.txt",
+      "spdx_id": "OCLC-2.0",
+      "name": "OCLC Research Public License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OCLC-2.0.txt",
+      "sha256": "dbf0de8b59347abf26a602a8cd8b32f1162207801fb3e3eb24f33afa16ffb6b8"
+    },
+    {
+      "path": "whitelist/OFL-1.1.txt",
+      "spdx_id": "OFL-1.1",
+      "name": "SIL Open Font License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OFL-1.1.txt",
+      "sha256": "8eea8287e5876b539670cadb82e99f9a7afddec6f6730811be1daf25d2e9bcfd"
+    },
+    {
+      "path": "whitelist/OFL-1.1-RFN.txt",
+      "spdx_id": "OFL-1.1-RFN",
+      "name": "SIL Open Font License 1.1 with Reserved Font Name",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OFL-1.1-RFN.txt",
+      "sha256": "8eea8287e5876b539670cadb82e99f9a7afddec6f6730811be1daf25d2e9bcfd"
+    },
+    {
+      "path": "whitelist/OFL-1.1-no-RFN.txt",
+      "spdx_id": "OFL-1.1-no-RFN",
+      "name": "SIL Open Font License 1.1 with no Reserved Font Name",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OFL-1.1-no-RFN.txt",
+      "sha256": "8eea8287e5876b539670cadb82e99f9a7afddec6f6730811be1daf25d2e9bcfd"
+    },
+    {
+      "path": "whitelist/OGTSL.txt",
+      "spdx_id": "OGTSL",
+      "name": "Open Group Test Suite License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OGTSL.txt",
+      "sha256": "1866b77e78b70d1ef5dfd7768fac63ea25e31837c4520be4eed553c9af792908"
+    },
+    {
+      "path": "whitelist/OLDAP-2.8.txt",
+      "spdx_id": "OLDAP-2.8",
+      "name": "Open LDAP Public License v2.8",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OLDAP-2.8.txt",
+      "sha256": "bf30f8254b6698a79e867d0a7d641bbbd3460f7c2f16cab9c6816718815c2ded"
+    },
+    {
+      "path": "whitelist/OLFL-1.3.txt",
+      "spdx_id": "OLFL-1.3",
+      "name": "Open Logistics Foundation License Version 1.3",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OLFL-1.3.txt",
+      "sha256": "a9996155436c8ce5fd46b3f3f5403d6d604c8994acbd9024946d505bc000a4b2"
+    },
+    {
+      "path": "whitelist/OSC-1.0.txt",
+      "spdx_id": "OSC-1.0",
+      "name": "OSC License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSC-1.0.txt",
+      "sha256": "63648e4e7fd5f798a34cf76515964f7cd5bfea1b976a9a08d1e538e927e70485"
+    },
+    {
+      "path": "whitelist/OSET-PL-2.1.txt",
+      "spdx_id": "OSET-PL-2.1",
+      "name": "OSET Public License version 2.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSET-PL-2.1.txt",
+      "sha256": "ed99f44eca387bd812c680bba47e765779a8d721e9edf483e42fe272a206b3f6"
+    },
+    {
+      "path": "whitelist/OSL-1.0.txt",
+      "spdx_id": "OSL-1.0",
+      "name": "Open Software License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSL-1.0.txt",
+      "sha256": "cce19c78a02ab21b89016dcefcb0fd6ce82a52593ce2ca19d83b82a8ea347884"
+    },
+    {
+      "path": "whitelist/OSL-2.0.txt",
+      "spdx_id": "OSL-2.0",
+      "name": "Open Software License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSL-2.0.txt",
+      "sha256": "e1f0417f3b2df980f3c61a26f9417c00ebf325f1a5ec4704c5edfaa70e50a13d"
+    },
+    {
+      "path": "whitelist/OSL-2.1.txt",
+      "spdx_id": "OSL-2.1",
+      "name": "Open Software License 2.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSL-2.1.txt",
+      "sha256": "0545a54adffe26d0cd2db10a5be3b26dc3bb7b3681d879a60a698927f7b2bd03"
+    },
+    {
+      "path": "whitelist/OSL-3.0.txt",
+      "spdx_id": "OSL-3.0",
+      "name": "Open Software License 3.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/OSL-3.0.txt",
+      "sha256": "9329b26bc40104b49da35be76b7e972dada9f2561ca19d17aed4801bf5e1623c"
+    },
+    {
+      "path": "whitelist/PHP-3.0.txt",
+      "spdx_id": "PHP-3.0",
+      "name": "PHP License v3.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/PHP-3.0.txt",
+      "sha256": "8c18adf2c052e52aa8376d40a445a840af2edab91aa5892a78bddf9421cf0a9d"
+    },
+    {
+      "path": "whitelist/PHP-3.01.txt",
+      "spdx_id": "PHP-3.01",
+      "name": "PHP License v3.01",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/PHP-3.01.txt",
+      "sha256": "c288e228ae7ccd27a39a7d4011057c85769a85e5fa38e91e31cec1f5549b1e7e"
+    },
+    {
+      "path": "whitelist/PostgreSQL.txt",
+      "spdx_id": "PostgreSQL",
+      "name": "PostgreSQL License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/PostgreSQL.txt",
+      "sha256": "d443a7dc550da2be365b4e924bb8779101e1c318d15bb78e5cb6374cadd8b6c0"
+    },
+    {
+      "path": "whitelist/Python-2.0.txt",
+      "spdx_id": "Python-2.0",
+      "name": "Python License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Python-2.0.txt",
+      "sha256": "893c2bafbb8133f7aa97e1f79a3ee3241ebca7025f56278e9e1f72bb98592f9d"
+    },
+    {
+      "path": "whitelist/Python-2.0.1.txt",
+      "spdx_id": "Python-2.0.1",
+      "name": "Python License 2.0.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Python-2.0.1.txt",
+      "sha256": "1d165c0d255094285fe6ce754b431b9efc1e7df547db4aed5c3b3d082e5d5aaa"
+    },
+    {
+      "path": "whitelist/QPL-1.0.txt",
+      "spdx_id": "QPL-1.0",
+      "name": "Q Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/QPL-1.0.txt",
+      "sha256": "524dce795dfcfda14f8ee06e738f3059c4a054306d07dc14601164ed94cd01ce"
+    },
+    {
+      "path": "whitelist/RPL-1.1.txt",
+      "spdx_id": "RPL-1.1",
+      "name": "Reciprocal Public License 1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/RPL-1.1.txt",
+      "sha256": "ea8d9811a051e7de6b7404ea1795dc4233a95d92950cb8c213e0f4245f181cac"
+    },
+    {
+      "path": "whitelist/RPL-1.5.txt",
+      "spdx_id": "RPL-1.5",
+      "name": "Reciprocal Public License 1.5",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/RPL-1.5.txt",
+      "sha256": "9bdb5f2d585451eb429d69f48ae0b7c6bd3954eb6431b3d644a7cbec074e9ecc"
+    },
+    {
+      "path": "whitelist/RPSL-1.0.txt",
+      "spdx_id": "RPSL-1.0",
+      "name": "RealNetworks Public Source License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/RPSL-1.0.txt",
+      "sha256": "358012b3f023bec75c2c90ebe3cf2ea2330e2edc5404e7f810237ca66d146e20"
+    },
+    {
+      "path": "whitelist/RSCPL.txt",
+      "spdx_id": "RSCPL",
+      "name": "Ricoh Source Code Public License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/RSCPL.txt",
+      "sha256": "190ee7c947dc7f20be4345d5fa9ea09e6fceaa5df0b02e87c6689cfbc3b6ee13"
+    },
+    {
+      "path": "whitelist/SISSL.txt",
+      "spdx_id": "SISSL",
+      "name": "Sun Industry Standards Source License v1.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/SISSL.txt",
+      "sha256": "51a1c03478872c36943737b04cc35a6f903d4f3a6bd9144c90af5831f44c0e75"
+    },
+    {
+      "path": "whitelist/SPL-1.0.txt",
+      "spdx_id": "SPL-1.0",
+      "name": "Sun Public License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/SPL-1.0.txt",
+      "sha256": "5a38bd15c6ddcfa3937a4434126f899e597537a68da2fbbd4b219652a673734d"
+    },
+    {
+      "path": "whitelist/SimPL-2.0.txt",
+      "spdx_id": "SimPL-2.0",
+      "name": "Simple Public License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/SimPL-2.0.txt",
+      "sha256": "c914635c3f2fcb078fd728f76fc1b0dc5abd4e976061bc32f2cea622b4a1b5ec"
+    },
+    {
+      "path": "whitelist/Sleepycat.txt",
+      "spdx_id": "Sleepycat",
+      "name": "Sleepycat License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Sleepycat.txt",
+      "sha256": "74e179cd51dffda479cf3a339cf53c4dc46289fd72307f246af6c45de7b9cb5c"
+    },
+    {
+      "path": "whitelist/UCL-1.0.txt",
+      "spdx_id": "UCL-1.0",
+      "name": "Upstream Compatibility License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/UCL-1.0.txt",
+      "sha256": "81c86c108696105f033b37dc4750a123d05ed684028e3909b1b6bdea9df5a29d"
+    },
+    {
+      "path": "whitelist/UPL-1.0.txt",
+      "spdx_id": "UPL-1.0",
+      "name": "Universal Permissive License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/UPL-1.0.txt",
+      "sha256": "2f81e75033a0c872ab9725b36081e363f0c9e6c45585c35930edb66043fdc576"
+    },
+    {
+      "path": "whitelist/Unicode-3.0.txt",
+      "spdx_id": "Unicode-3.0",
+      "name": "Unicode License v3",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Unicode-3.0.txt",
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+    },
+    {
+      "path": "whitelist/Unicode-DFS-2016.txt",
+      "spdx_id": "Unicode-DFS-2016",
+      "name": "Unicode License Agreement - Data Files and Software (2016)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Unicode-DFS-2016.txt",
+      "sha256": "1a33fc12a3abb0b3eb14db70e36ef1d0af51c93b1cc1f80f022c3bd406e9b874"
+    },
+    {
+      "path": "whitelist/Unlicense.txt",
+      "spdx_id": "Unlicense",
+      "name": "The Unlicense",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Unlicense.txt",
+      "sha256": "0bdebfeda07d45dada625ae1317c6f833186e798b171d0db640bcf32e92a8240"
+    },
+    {
+      "path": "whitelist/VSL-1.0.txt",
+      "spdx_id": "VSL-1.0",
+      "name": "Vovida Software License v1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/VSL-1.0.txt",
+      "sha256": "435a7448a4719164bd6eff3dd00cef735eb4b81f70b715d8891753ca46777570"
+    },
+    {
+      "path": "whitelist/W3C.txt",
+      "spdx_id": "W3C",
+      "name": "W3C Software Notice and License (2002-12-31)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/W3C.txt",
+      "sha256": "df7429635bacfb82b3e92c2fff50553949afd97389890d53a67b67cbf9fba68e"
+    },
+    {
+      "path": "whitelist/W3C-20150513.txt",
+      "spdx_id": "W3C-20150513",
+      "name": "W3C Software Notice and Document License (2015-05-13)",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/W3C-20150513.txt",
+      "sha256": "38b688e653a972897f6a875c53abbf867b261cbeba7ded0bdf100ae9907a6c19"
+    },
+    {
+      "path": "whitelist/Watcom-1.0.txt",
+      "spdx_id": "Watcom-1.0",
+      "name": "Sybase Open Watcom Public License 1.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Watcom-1.0.txt",
+      "sha256": "6aae307240e425f74bdf26242e08e170f701a5c97db796c363200b4a231ee680"
+    },
+    {
+      "path": "whitelist/WordNet.txt",
+      "spdx_id": "WordNet",
+      "name": "WordNet License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/WordNet.txt",
+      "sha256": "3cafea2fc6288483d7de5501d00f4e7d6aea5077dafeecdd1bb2fa492ab7f774"
+    },
+    {
+      "path": "whitelist/Xnet.txt",
+      "spdx_id": "Xnet",
+      "name": "X.Net License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Xnet.txt",
+      "sha256": "55105d933d1afe61d28605a020f065726931fe97e86dd1df5798fba08f6440c1"
+    },
+    {
+      "path": "whitelist/ZPL-2.0.txt",
+      "spdx_id": "ZPL-2.0",
+      "name": "Zope Public License 2.0",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ZPL-2.0.txt",
+      "sha256": "f7a42094e22b669aaa352720e6dc93d49da430d8cb25ebf904b50faa3fd98b20"
+    },
+    {
+      "path": "whitelist/ZPL-2.1.txt",
+      "spdx_id": "ZPL-2.1",
+      "name": "Zope Public License 2.1",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ZPL-2.1.txt",
+      "sha256": "3ab20c1a75502ea2231423bf6097a2cf56e336236c1153c2b9a4cb01608fb829"
+    },
+    {
+      "path": "whitelist/Zlib.txt",
+      "spdx_id": "Zlib",
+      "name": "zlib License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Zlib.txt",
+      "sha256": "bfb1112d49db5b1daecdfef24bd7e2f3ea0bafb33aa67aa0ab51e2bf8407c03d"
+    },
+    {
+      "path": "whitelist/curl.txt",
+      "spdx_id": "curl",
+      "name": "curl License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/curl.txt",
+      "sha256": "272d1239bdcef73bb98bac206168ca1040bd4a31296755fadfb7515bcea18df3"
+    },
+    {
+      "path": "whitelist/wxWindows.txt",
+      "spdx_id": "wxWindows",
+      "name": "wxWindows Library License",
+      "osi_approved": true,
+      "deprecated_identifier": true,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/deprecated_wxWindows.txt",
+      "sha256": "c4303da2434b941100e5b927fbb11a393865b9bde99a4e2450505f4a12d1a3e2"
+    },
+    {
+      "path": "blacklist/BUSL-1.1.txt",
+      "spdx_id": "BUSL-1.1",
+      "name": "Business Source License 1.1",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/BUSL-1.1.txt",
+      "sha256": "d90560217049db1d6020ec7cf482da4198bfa372dffd22270ba08fd8088cd93b"
+    },
+    {
+      "path": "blacklist/CC-BY-NC-4.0.txt",
+      "spdx_id": "CC-BY-NC-4.0",
+      "name": "Creative Commons Attribution Non Commercial 4.0 International",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-NC-4.0.txt",
+      "sha256": "cc97a2c4ff7723a1f25179dc7c18f676fa84191bbb36ea7d0061acaf3c102559"
+    },
+    {
+      "path": "blacklist/CC-BY-NC-ND-4.0.txt",
+      "spdx_id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-NC-ND-4.0.txt",
+      "sha256": "4f3c4a321eb0c73182eee7afa3fe0111e24dec193f2d6febcf4207f26af26839"
+    },
+    {
+      "path": "blacklist/CC-BY-NC-SA-4.0.txt",
+      "spdx_id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-NC-SA-4.0.txt",
+      "sha256": "600ca4e25fe11762b75a97e714707fab48bb778374e92d24c6ca068791661c11"
+    },
+    {
+      "path": "blacklist/CC-BY-ND-4.0.txt",
+      "spdx_id": "CC-BY-ND-4.0",
+      "name": "Creative Commons Attribution No Derivatives 4.0 International",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/CC-BY-ND-4.0.txt",
+      "sha256": "4a9d465e981ae6bde7f117abbfb0e24f2cc1820e99a47efbe58593fa5c43fa29"
+    },
+    {
+      "path": "blacklist/Elastic-2.0.txt",
+      "spdx_id": "Elastic-2.0",
+      "name": "Elastic License 2.0",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/Elastic-2.0.txt",
+      "sha256": "6448026f2e06ab3da9ed8ddda686694bba37179e88db92dea6d4aab516c957ea"
+    },
+    {
+      "path": "blacklist/PolyForm-Noncommercial-1.0.0.txt",
+      "spdx_id": "PolyForm-Noncommercial-1.0.0",
+      "name": "PolyForm Noncommercial License 1.0.0",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/PolyForm-Noncommercial-1.0.0.txt",
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+    },
+    {
+      "path": "blacklist/PolyForm-Small-Business-1.0.0.txt",
+      "spdx_id": "PolyForm-Small-Business-1.0.0",
+      "name": "PolyForm Small Business License 1.0.0",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/PolyForm-Small-Business-1.0.0.txt",
+      "sha256": "2f81e317d36f83a199c9fa10bcb250775fd90510303eaeb15aac2d8f0c1fc2d6"
+    },
+    {
+      "path": "blacklist/SSPL-1.0.txt",
+      "spdx_id": "SSPL-1.0",
+      "name": "Server Side Public License, v 1",
+      "osi_approved": false,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/SSPL-1.0.txt",
+      "sha256": "3fac2f3a7404f72330ae38e3a1d2632ede9ad3fbdb0d471d04c33f2c1d0e94ca"
+    },
+    {
+      "path": "whitelist/MIT-copyright-notice.txt",
+      "spdx_id": "MIT",
+      "name": "MIT License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+      "sha256": "526d7c1e3cbf4df0ca08c331c3b3eab5171905f579bc45037f076710d1bd87d1",
+      "upstream_sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "adaptation": "Instantiate only the isolated copyright notice as Copyright (c) 2026 Alice Example, a synthetic example fully parsed and ignored by the website copyright normalizer. All license clauses remain verbatim."
+    }
+  ]
+}
