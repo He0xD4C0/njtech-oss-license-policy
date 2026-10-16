@@ -1498,6 +1498,18 @@
       "sha256": "526d7c1e3cbf4df0ca08c331c3b3eab5171905f579bc45037f076710d1bd87d1",
       "upstream_sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
       "adaptation": "Instantiate only the isolated copyright notice as Copyright (c) 2026 Alice Example, a synthetic example fully parsed and ignored by the website copyright normalizer. All license clauses remain verbatim."
+    },
+    {
+      "path": "whitelist/AGPL-3.0-only-https.txt",
+      "spdx_id": "AGPL-3.0-only",
+      "name": "GNU Affero General Public License v3.0 only",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://www.gnu.org/licenses/agpl-3.0.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "retrieved_on": "2026-10-16",
+      "variant_of": "whitelist/AGPL-3.0-only.txt",
+      "adaptation": "None: verbatim GNU-hosted full text. This explicit variant uses HTTPS GNU license links; the existing SPDX HTTP-link text is retained. The affected repository texts differ from this source only in line wrapping."
     }
   ]
 }

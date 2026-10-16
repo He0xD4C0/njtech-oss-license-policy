@@ -1,7 +1,7 @@
 {
   "detector_version": "scancode-toolkit/32.5.0; policy-text-v2",
-  "files": 165,
-  "rules": 146,
+  "files": 166,
+  "rules": 147,
   "failures": [],
   "checks": {
     "empty": {
@@ -23,15 +23,57 @@
     "custom_copyright": {
       "actual": "published",
       "expected": "published"
+    },
+    "agpl_http_retained": {
+      "actual": "published",
+      "expected": "published"
+    },
+    "agpl_https_official": {
+      "actual": "published",
+      "expected": "published"
+    },
+    "agpl_https_astr-session-search": {
+      "actual": "published",
+      "expected": "published",
+      "source": "https://raw.githubusercontent.com/He0xD4C0/astr-session-search/19397feb4fc48f82930c7f54ddabfb612fe85525/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    "agpl_https_PhotoImpoter": {
+      "actual": "published",
+      "expected": "published",
+      "source": "https://raw.githubusercontent.com/He0xD4C0/PhotoImpoter/6336ed8ddc417ddeaa078194780db09d5b4843e9/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    "agpl_https_Timetable2ICS": {
+      "actual": "published",
+      "expected": "published",
+      "source": "https://raw.githubusercontent.com/He0xD4C0/Timetable2ICS/cfa1639a40eee8ed6bf5894a3a7acde7b1c92c40/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    "agpl_https_added_restriction": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "agpl_https_changed_clause": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "agpl_unapproved_url": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "agpl_https_mixed": {
+      "actual": "needs_review",
+      "expected": "needs_review"
     }
   },
-  "validated_on": "2026-10-15",
+  "validated_on": "2026-10-16",
   "platform": "linux/amd64",
   "engine_repository": "https://github.com/He0xD4C0/njtech-oss-namelist",
-  "engine_commit": "42e8a5b6579160f31a755aa30ce4a6e56ffad16b",
+  "engine_commit": "f3d51c3b060a7c7158d448e5f3acd1eae2501755",
   "engine_sha256": "a213566c6e052c72da82d5aaa2d7228228c2a2abcec9cfcd887c6110b1934756",
-  "whitelist_files": 156,
+  "whitelist_files": 157,
   "whitelist_spdx_ids": 155,
   "blacklist_files": 9,
-  "scope": "Real compile_policy, artifact validation, and scan_candidates against every active text plus negative and copyright cases. No detector mocks. This report does not certify a production deployment."
+  "scope": "Real compile_policy, artifact and source hash validation, and scan_candidates against every active text, all three affected repository snapshots, retained HTTP AGPL and negative cases. No detector mocks. The unchanged engine bytes match the stated release; this does not certify production synchronization."
 }
