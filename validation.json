@@ -1,7 +1,7 @@
 {
   "detector_version": "scancode-toolkit/32.5.0; policy-text-v2",
-  "files": 166,
-  "rules": 147,
+  "files": 167,
+  "rules": 148,
   "failures": [],
   "checks": {
     "empty": {
@@ -65,15 +65,57 @@
     "agpl_https_mixed": {
       "actual": "needs_review",
       "expected": "needs_review"
+    },
+    "purify_before_variant": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_other_copyright": {
+      "actual": "published",
+      "expected": "published",
+      "labels": [
+        "MIT"
+      ],
+      "complete_text_coverage": true
+    },
+    "mit_parenthesized_added_restriction": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_changed_clause": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_unapproved_title": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_mixed": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_heading_only": {
+      "actual": "needs_review",
+      "expected": "needs_review"
+    },
+    "mit_parenthesized_title_purify": {
+      "actual": "published",
+      "expected": "published",
+      "source": "https://raw.githubusercontent.com/He0xD4C0/Purify/9406654be207d9989f8518f5c4a92531694c0113/LICENSE",
+      "sha256": "e463bb821c363e6182f16ec1bf24405af3315b4adc72fc1402232fa98b9a0b12",
+      "labels": [
+        "MIT"
+      ],
+      "complete_text_coverage": true
     }
   },
   "validated_on": "2026-10-16",
   "platform": "linux/amd64",
   "engine_repository": "https://github.com/He0xD4C0/njtech-oss-namelist",
-  "engine_commit": "f3d51c3b060a7c7158d448e5f3acd1eae2501755",
+  "engine_commit": "25fb2b9fa15a804461aea604a1d99d161621105e",
   "engine_sha256": "a213566c6e052c72da82d5aaa2d7228228c2a2abcec9cfcd887c6110b1934756",
-  "whitelist_files": 157,
+  "whitelist_files": 158,
   "whitelist_spdx_ids": 155,
   "blacklist_files": 9,
-  "scope": "Real compile_policy, artifact and source hash validation, and scan_candidates against every active text, all three affected repository snapshots, retained HTTP AGPL and negative cases. No detector mocks. The unchanged engine bytes match the stated release; this does not certify production synchronization."
+  "scope": "Real compile_policy, artifact and source hash validation, and scan_candidates against every active text. Reproduces Purify under the previous policy, then validates its fixed snapshot, retained AGPL cases and negative cases with the new variant. No detector mocks. The unchanged engine bytes match the stated release; this does not certify production synchronization."
 }

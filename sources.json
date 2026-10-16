@@ -1510,6 +1510,18 @@
       "retrieved_on": "2026-10-16",
       "variant_of": "whitelist/AGPL-3.0-only.txt",
       "adaptation": "None: verbatim GNU-hosted full text. This explicit variant uses HTTPS GNU license links; the existing SPDX HTTP-link text is retained. The affected repository texts differ from this source only in line wrapping."
+    },
+    {
+      "path": "whitelist/MIT-parenthesized-title.txt",
+      "spdx_id": "MIT",
+      "name": "MIT License",
+      "osi_approved": true,
+      "deprecated_identifier": false,
+      "source": "https://github.com/He0xD4C0/Purify/blob/9406654be207d9989f8518f5c4a92531694c0113/LICENSE",
+      "sha256": "e463bb821c363e6182f16ec1bf24405af3315b4adc72fc1402232fa98b9a0b12",
+      "retrieved_on": "2026-10-16",
+      "variant_of": "whitelist/MIT-copyright-notice.txt",
+      "adaptation": "None: verbatim full text from the fixed Purify commit. After the existing copyright normalization, only the heading The MIT License (MIT) differs from the retained MIT variant; all license clauses are identical apart from line wrapping."
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 - 白名单覆盖该版本所有 `isOsiApproved=true` 的 154 个标识（含已弃用标识），另加 CC0-1.0，共 155 个 SPDX 标识；Unlicense 已在 OSI 集合内。
 - 包含 GPL、LGPL、AGPL 等 copyleft 许可证。Copyleft 本身不是黑名单理由。
-- 额外提供一份仅实例化独立版权声明的 MIT 正文，以适配网站对真实版权年份与持有人的规范化。另补充一份 GNU 官方 AGPL-3.0 HTTPS 正文变体，因此白名单目录有 157 份文件。
+- 额外提供一份仅实例化独立版权声明的 MIT 正文，以适配网站对真实版权年份与持有人的规范化。另补充一份 GNU 官方 AGPL-3.0 HTTPS 正文变体和一份标题为 `The MIT License (MIT)` 的完整 MIT 正文，因此白名单目录有 158 份文件。
 - 未纳入白名单不等于黑名单；未匹配的正文进入待处理。
 
 黑名单共 9 份：
@@ -52,13 +52,15 @@ README.md      说明；不进入策略编译
 
 `MIT-copyright-notice.txt` 仅将上游 `Copyright (c) <year> <copyright holders>` 实例化为 `Copyright (c) 2026 Alice Example`。这是供扫描器识别并忽略的合成示例，不主张任何实际项目的著作权，其余条款保持原样。上游原版仍保留在 MIT.txt。
 
+`MIT-parenthesized-title.txt` 原样取自 [Purify 固定提交的 LICENSE](https://github.com/He0xD4C0/Purify/blob/9406654be207d9989f8518f5c4a92531694c0113/LICENSE)，保留原始版权声明。现有版权规范化处理后，与 `MIT-copyright-notice.txt` 的差异仅为标题 `The MIT License (MIT)`，许可条款除换行外一致。该变体仍要求完整正文匹配，附加限制、条款改写和未知标题内容继续进入待处理。
+
 `AGPL-3.0-only-https.txt` 原样取自 [GNU 官方 AGPL-3.0 正文](https://www.gnu.org/licenses/agpl-3.0.txt)（2026-10-16 获取，SHA-256 见 `sources.json`）。与原有 SPDX 版本相比，网站规范化后的差异仅为两处 GNU 许可证链接从 HTTP 改为 HTTPS；三个受影响项目的正文与这份官方文本仅有换行差异。保留原有 HTTP 版本，并增加这一明确变体，不扩展任意 URL 替换或近似匹配的授权范围。
 
 不把 SPDX 模板占位字段视为任意文本通配符。特别是写入条款中的组织名、产品名、额外授予或转换条件，不能仅凭相似名称放行。需要支持新的真实文本时，应审阅完整正文、核验来源和冲突，再添加明确变体。
 
 ## 维护边界
 
-2026-10-16 已在 Linux amd64、ScanCode 32.5.0、网站 policy-text-v2 引擎上完成真实验证：166 份文件编译为 147 条去重规则，逐份扫描的黑白分类全部通过；另有 14 项补充检查，覆盖三个受影响项目的固定提交正文、AGPL HTTP/HTTPS 两种原文，以及无许可证、未知文本、黑白混合、附加商业限制、条款改写、未批准链接和版权声明变体。详细结果与引擎校验值见 [validation.json](validation.json)。这不等于生产站点已经同步或部署。
+2026-10-16 已在 Linux amd64、ScanCode 32.5.0、网站 policy-text-v2 引擎上完成真实验证：167 份文件编译为 148 条去重规则，逐份扫描的黑白分类全部通过；另有 22 项补充检查，复现 Purify 在旧策略下待处理、新策略下完整匹配 MIT，覆盖其他版权声明、标题附加限制、仅有标题、条款改写及黑白混合，并保留三个 AGPL 项目的固定提交正文、HTTP/HTTPS 原文及既有负面用例验证。详细结果与引擎校验值见 [validation.json](validation.json)。这不等于生产站点已经同步或部署。
 
 复验时在网站的 Linux scanner 环境读取两个目录构建路径到 UTF-8 正文的映射，调用 `licensecheck.engine.compile_policy(files, empty_directory)` 和 `validate_policy_artifacts`；随后将每份正文作为根目录 LICENSE 分别传入 `scan_candidates`，要求白名单返回 published、黑名单返回 rejected。对照 sources.json 校验每份文件 SHA-256。测试目录与生成缓存属于验证环境，不提交到本仓库。
 
